@@ -18,4 +18,4 @@ jobs:
       uses: andstor/file-existence-action@v1
       with:
         allow_failure: true
-        files: "montest.epitech"
+        files: "my_hello"
