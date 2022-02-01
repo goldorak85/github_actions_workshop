@@ -1,0 +1,17 @@
+name: Run tests
+
+on:
+  push:
+    branches: 
+      - master
+
+jobs:
+  unit-tests:
+    runs-on: ubuntu-20.04
+    container: epitechcontent/epitest-docker:devel
+    steps:
+    - uses: actions/checkout@v2
+    - name: Make a projet
+      run: make tests_run
+    - name: Test LS
+      run: ls -all
