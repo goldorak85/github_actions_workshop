@@ -8,7 +8,7 @@ on:
 
 jobs:
   unit-tests:
-    runs-on: ubuntu-20.04
+    runs-on: self-hosted
     container: epitechcontent/epitest-docker:devel
     steps:
     - uses: actions/checkout@v2
