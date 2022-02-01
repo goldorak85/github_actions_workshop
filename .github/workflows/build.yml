@@ -1,0 +1,14 @@
+name: Check compliation
+
+on:
+  push:
+    branches: 
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    container: epitechcontent/epitest-docker:devel
+    steps:
+    - name: Make a projet
+      run: make
