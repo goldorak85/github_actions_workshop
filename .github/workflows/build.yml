@@ -7,7 +7,7 @@ on:
 
 jobs:
   compilation:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     container: epitechcontent/epitest-docker:devel
     steps:
     - uses: actions/checkout@v2
