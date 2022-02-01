@@ -6,11 +6,10 @@ on:
       - master
 
 jobs:
-  build:
+  compilation:
     runs-on: ubuntu-20.04
     container: epitechcontent/epitest-docker:devel
     steps:
-    - name: ls check test
-      run: ls -all
+    - uses: actions/checkout@v2
     - name: Make a projet
       run: make
