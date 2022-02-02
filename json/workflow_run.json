@@ -1,6 +1,6 @@
 {
   "workflow_run": {
-    "workflows": [Run test],
-    "types": [completed]
+    "workflows": ["Run test"],
+    "types": ["completed"]
   }
 }
