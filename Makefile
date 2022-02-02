@@ -10,7 +10,7 @@ SRC =   src/main.c	\
 
 OBJ =   $(SRC:.c=.o)
 
-NAME    =   my_hellojkhbhjkhjk
+NAME    =   my_hello
 
 CFLAGS  +=  -I include -Wall -Wextra
 
